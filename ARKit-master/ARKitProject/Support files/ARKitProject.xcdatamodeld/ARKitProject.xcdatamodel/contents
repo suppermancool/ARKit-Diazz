@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17B1003" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MOMarkup" representedClassName=".MOMarkup" parentEntity="MONodeObject" syncable="YES" codeGenerationType="class">
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MONodeObject" representedClassName=".MONodeObject" syncable="YES" codeGenerationType="class">
+        <attribute name="posX" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" customClassName="SCNVector3" syncable="YES"/>
+        <attribute name="posY" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="posZ" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="MOVirtualObject" representedClassName=".MOVirtualObject" parentEntity="MONodeObject" syncable="YES" codeGenerationType="class">
+        <attribute name="anglesX" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="anglesY" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="anglesZ" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="modelName" optional="YES" attributeType="String" defaultValueString="cup" syncable="YES"/>
+        <attribute name="scaleX" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="scaleY" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="scaleZ" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MONodeObject" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="MOMarkup" positionX="-54" positionY="0" width="128" height="60"/>
+        <element name="MOVirtualObject" positionX="-36" positionY="27" width="128" height="150"/>
+    </elements>
+</model>
