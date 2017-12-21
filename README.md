@@ -1,3 +1,10 @@
+<p align="center">
+<img src="./ScreenShot/screen_shot_1.jpg" width="100%"/>
+</p>
+
+## Preview
+ Demo(https://www.facebook.com/tuynu/videos/1132420913526928/)
+
 # ARKit-Diazz
 
 You can detect the plane then put mark, sticker, 3d model, particle, measurement
